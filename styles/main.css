@@ -359,6 +359,10 @@ body {
     background: radial-gradient(circle at top, #22C55E33, #020617 70%);
     margin-bottom: 12px;
     overflow: hidden;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition:
         transform 0.25s ease,
         box-shadow 0.25s ease,
@@ -368,7 +372,8 @@ body {
 .project-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     display: block;
 }
 
