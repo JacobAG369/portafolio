@@ -359,7 +359,7 @@ body {
     background: radial-gradient(circle at top, #22C55E33, #020617 70%);
     margin-bottom: 12px;
     overflow: hidden;
-    padding: 0;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
