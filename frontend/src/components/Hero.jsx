@@ -36,7 +36,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
           >
-            <motion.p variants={itemVariants} className="text-primary font-medium mb-3 tracking-wide">
+            <motion.p variants={itemVariants} className="text-slate-500 font-medium mb-3 tracking-wide">
               HOLA, SOY
             </motion.p>
             <motion.h1 variants={itemVariants} className="text-4xl md:text-6xl font-extrabold text-text leading-tight mb-4">
@@ -51,26 +51,26 @@ const Hero = () => {
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mb-10">
-              <a href="#" className="px-8 py-3 bg-primary text-white rounded-lg font-medium hover:bg-primary-hover transition-all shadow-md shadow-primary/20 hover:shadow-lg hover:-translate-y-1 w-full sm:w-auto text-center">
-                Descargar CV
+              <a href="/assets/assets/JMYAV-CV.pdf" download="Jimmy_Avina_Gomez_CV.pdf" className="px-8 py-3 bg-slate-900 text-white rounded-lg font-medium hover:bg-slate-800 transition-all shadow-md shadow-slate-900/20 hover:shadow-lg hover:-translate-y-1 w-full sm:w-auto text-center flex items-center justify-center gap-2">
+                <i className="fa-solid fa-download"></i> Descargar CV
               </a>
-              <a href="#proyectos" className="px-8 py-3 border border-border bg-surface text-text font-medium rounded-lg hover:border-primary hover:text-primary transition-all shadow-sm w-full sm:w-auto text-center">
+              <a href="#proyectos" className="px-8 py-3 border border-border bg-surface text-text font-medium rounded-lg hover:border-slate-900 hover:text-slate-900 transition-all shadow-sm w-full sm:w-auto text-center">
                 Ver Proyectos
               </a>
             </motion.div>
 
             {/* Social Links */}
             <motion.div variants={itemVariants} className="flex gap-5 justify-center md:justify-start">
-              <a href="https://github.com/JacobAG369" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-primary hover:border-primary transition-all hover:scale-110 shadow-sm">
+              <a href="https://github.com/JacobAG369" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-slate-900 hover:border-slate-900 transition-all hover:scale-110 shadow-sm">
                 <i className="fa-brands fa-github text-xl"></i>
               </a>
-              <a href="https://www.linkedin.com/in/jmyav369" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-primary hover:border-primary transition-all hover:scale-110 shadow-sm">
+              <a href="https://www.linkedin.com/in/jmyav369" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-slate-900 hover:border-slate-900 transition-all hover:scale-110 shadow-sm">
                 <i className="fa-brands fa-linkedin text-xl"></i>
               </a>
-              <a href="mailto:jmy.369@outlook.com" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-primary hover:border-primary transition-all hover:scale-110 shadow-sm">
+              <a href="mailto:jmy.369@outlook.com" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-slate-900 hover:border-slate-900 transition-all hover:scale-110 shadow-sm">
                 <Mail size={20} />
               </a>
-              <a href="https://wa.me/523340721835" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-primary hover:border-primary transition-all hover:scale-110 shadow-sm">
+              <a href="https://wa.me/523340721835" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-text hover:text-slate-900 hover:border-slate-900 transition-all hover:scale-110 shadow-sm">
                 <Smartphone size={20} />
               </a>
             </motion.div>

@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a
             href="#top"
-            className="text-2xl font-bold text-primary tracking-tight"
+            className="text-2xl font-bold text-slate-900 tracking-tight"
           >
             JA
           </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-text-muted hover:text-primary transition-colors font-medium text-sm"
+                className="text-text-muted hover:text-slate-900 transition-colors font-medium text-sm"
               >
                 {link.name}
               </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-text hover:text-primary transition-colors"
+              className="text-text hover:text-slate-900 transition-colors"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -81,7 +81,7 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-text hover:text-primary transition-colors font-medium text-lg block w-full text-center py-2"
+                  className="text-text hover:text-slate-900 transition-colors font-medium text-lg block w-full text-center py-2"
                 >
                   {link.name}
                 </a>
