@@ -5,7 +5,7 @@ import { GraduationCap, Award, Calendar } from 'lucide-react';
 const education = [
   {
     id: 1,
-    degree: "Ingeniería en Tecnologías de la Información (Desarrollo de Software Multiplataforma)",
+    degree: "Ingeniería en Desarrollo Y Gestión de Software",
     school: "Universidad Tecnológica de la Zona Metropolitana de Guadalajara",
     period: "2023 - 2027",
     status: "En curso"
@@ -80,9 +80,9 @@ const Education = () => {
                   className="bg-surface border border-border p-6 rounded-2xl hover:shadow-md transition-all group"
                 >
                   <div className="flex justify-between items-start mb-3 gap-2 flex-wrap">
-                    <h4 className="text-lg font-bold text-text group-hover:text-primary transition-colors">{item.degree}</h4>
+                    <h4 className="text-lg font-bold text-text group-hover:text-success transition-colors">{item.degree}</h4>
                     <span className={`px-3 py-1 text-xs font-semibold rounded-full border shrink-0 ${item.status === 'En curso'
-                      ? 'bg-blue-50 text-primary border-primary/20'
+                      ? 'bg-yellow-50 text-yellow-600 border-yellow-400'
                       : 'bg-green-50 text-success border-success/20'
                       }`}>
                       {item.status}

@@ -141,9 +141,9 @@ const Projects = () => {
     <section id="proyectos" className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="text-center md:text-left mb-16">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-text mb-4">Proyectos Destacados</h2>
-          <p className="text-text-muted text-lg max-w-2xl">
+          <p className="text-text-muted text-lg max-w-2xl mx-auto">
             Soluciones analíticas y de software construidas resolviendo problemas de negocio reales. Enfoque de extremo a extremo.
           </p>
         </div>
